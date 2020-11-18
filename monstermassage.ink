@@ -97,20 +97,26 @@ The trainer says "uh oh. Quick! get in cover!"
 +[Get in cover]->take_cover
 
 ==take_cover
-The trainer grabs your arm, and pulls you closer to him. The angry guards can't hear you anymore. Little bits of dirt are kicking up and you finally notice that you are in a force field. 
+The trainer grabs your arm, and pulls you closer to him. The angry guards can't hear you anymore. Little bits of dirt are kicking up and you finally notice that you are in a force field. the angry guards go away and you come out of the force field.-> inside
 ->DONE
 
 ==inside 
-UNFINISHED ENDING
+The trainer pushes you tworads a cage and your partner whispers to you "do you want to try to run away?"
 ->DONE
-
++[say yes]->runaway1
++[say no] -> dont_runaway
 ==special_chamber
 UNFINISHED ENDING
 ->DONE
-
-==talk_partner
-UNFINISHED ENDING
+==runaway1
+UNFINISHED_ENDING
 ->DONE
+==dont_runaway
+UNFINISHED_ENDING
+->DONE
+==talk_partner
+so um...
+->angry_guard
 
 ==frozen
  Later, they take you to a cold chamber. They leave you there. You see a robot heading towards you with giant puffs of frost coming out of it every second. You try to run away but your feet are frozen to the floor. You feel the cold frost of the robot. HA! HA!  They freeze you FOREVER!!!!!
