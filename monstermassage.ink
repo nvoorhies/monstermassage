@@ -102,14 +102,13 @@ The trainer grabs your arm, and pulls you closer to him. The angry guards can't 
 
 ==inside 
 The trainer pushes you tworads a cage and your partner whispers to you "do you want to try to run away?"
-->DONE
 +[say yes]->runaway1
 +[say no] -> dont_runaway
 ==special_chamber
-UNFINISHED ENDING
+The trainer 
 ->DONE
 ==runaway1
-UNFINISHED_ENDING
+You whisper to your partner yes and he grabs your hand and you manage   
 ->DONE
 ==dont_runaway
 UNFINISHED_ENDING
